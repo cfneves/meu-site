@@ -11,7 +11,7 @@
     "preview": "astro build && wrangler pages dev",
     "astro": "astro",
     "generate-types": "wrangler types",
-    "deploy": "astro build && wrangler pages deploy",
+    "deploy": "astro build && node scripts/patch-wrangler.js && wrangler pages deploy ./dist/client --project-name my-astro-app",
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
