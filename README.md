@@ -1,7 +1,7 @@
 # Cláudio Ferreira Neves — Portfólio Profissional
 
-> **Site ao vivo:** [claudioneves.com.br](https://claudioneves.com.br)  
-> Deploy preview: [aed4ade1.my-astro-app-9wi.pages.dev](https://aed4ade1.my-astro-app-9wi.pages.dev)
+> **Deploy:** [my-astro-app-9wi.pages.dev](https://my-astro-app-9wi.pages.dev)  
+> *(Domínio personalizado claudioneves.com.br em configuração)*
 
 Portfólio B2B desenvolvido do zero com foco em **desempenho**, **design profissional** e **zero custo de hospedagem** — SSG estático deployado diretamente no edge global da Cloudflare.
 
@@ -65,8 +65,8 @@ Todo o site vive em `src/pages/index.astro`. Escolha deliberada para um SPA com 
 Em vez de Tailwind ou CSS-in-JS, o projeto usa tokens CSS nativos — mais performático e sem overhead de build:
 
 ```css
---bg: #040D1B         /* Dark navy profundo — fundo principal */
---bg-2: #091422       /* Fundo de seções alternadas */
+--bg: #112d4e         /* Azul marinho suave — fundo principal */
+--bg-2: #1a3d6b       /* Fundo de seções alternadas */
 --pbi: #F2C811        /* Amarelo Power BI — identidade de marca */
 --teal: #2DD4BF       /* Acento teal para dados/visualizações */
 --font-h: 'Space Grotesk'      /* Títulos — sem serifa com caráter */
