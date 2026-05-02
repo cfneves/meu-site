@@ -113,8 +113,8 @@
     }
     .btn-pbi  { background: var(--pbi); color: #000; box-shadow: 0 2px 12px rgba(242,200,17,0.22); }
     .btn-pbi:hover  { background: #ffd534; transform: translateY(-2px); box-shadow: 0 8px 28px var(--pbi-glow); }
-    .btn-ghost { background: var(--glass); color: var(--text); border: 1px solid var(--border-2); }
-    .btn-ghost:hover { background: var(--glass-2); border-color: rgba(255,255,255,0.2); }
+    .btn-ghost { background: transparent; color: var(--pbi); border: 1px solid var(--pbi-border); }
+    .btn-ghost:hover { background: var(--pbi-dim); border-color: var(--pbi); }
 
     /* ── CHIP ── */
     .chip {
@@ -670,7 +670,7 @@
           <h3 style="font-size:0.9rem;margin-bottom:6px;">Dashboard Acadêmico — SENAI</h3>
           <p style="color:var(--text-2);font-size:0.8rem;line-height:1.72;margin-bottom:12px;">Painel de matrículas, evasão e desempenho por curso e instrutor. Integração com ERP via Power Query. RLS por unidade gestora.</p>
           <div style="display:flex;gap:5px;flex-wrap:wrap;">
-            {['Power BI','DAX','RLS','Power Query'].map(p => (<span style="padding:3px 8px;background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:5px;font-size:0.62rem;color:var(--text-3);">{p}</span>))}
+            {['Power BI','DAX','RLS','Power Query'].map(p => (<span style="padding:3px 9px;background:var(--pbi-dim);border:1px solid var(--pbi-border);border-radius:5px;font-size:0.62rem;color:var(--pbi);font-weight:600;">{p}</span>))}
           </div>
         </div>
       </div>
@@ -722,7 +722,7 @@
           <h3 style="font-size:0.9rem;margin-bottom:6px;">BI Comercial — Grupo Lider</h3>
           <p style="color:var(--text-2);font-size:0.8rem;line-height:1.72;margin-bottom:12px;">Dashboard de vendas, funil de conversão e análise de ciclo de venda por regional. Automação diária via Power BI Service.</p>
           <div style="display:flex;gap:5px;flex-wrap:wrap;">
-            {['Power BI','Power BI Service','DAX avançado','6 regionais'].map(p => (<span style="padding:3px 8px;background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:5px;font-size:0.62rem;color:var(--text-3);">{p}</span>))}
+            {['Power BI','Power BI Service','DAX avançado','6 regionais'].map(p => (<span style="padding:3px 9px;background:var(--pbi-dim);border:1px solid var(--pbi-border);border-radius:5px;font-size:0.62rem;color:var(--pbi);font-weight:600;">{p}</span>))}
           </div>
         </div>
       </div>
@@ -774,7 +774,7 @@
           <h3 style="font-size:0.9rem;margin-bottom:6px;">Forecasting de Demanda — PonceTech</h3>
           <p style="color:var(--text-2);font-size:0.8rem;line-height:1.72;margin-bottom:12px;">Modelo preditivo com Python e Power BI. Análise de séries temporais e detecção de anomalias em dados operacionais.</p>
           <div style="display:flex;gap:5px;flex-wrap:wrap;">
-            {['Python','Machine Learning','Power BI','Séries Temporais'].map(p => (<span style="padding:3px 8px;background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:5px;font-size:0.62rem;color:var(--text-3);">{p}</span>))}
+            {['Python','Machine Learning','Power BI','Séries Temporais'].map(p => (<span style="padding:3px 9px;background:var(--pbi-dim);border:1px solid var(--pbi-border);border-radius:5px;font-size:0.62rem;color:var(--pbi);font-weight:600;">{p}</span>))}
           </div>
         </div>
       </div>
