@@ -28,3 +28,8 @@ pnpm-debug.log*
 .dev.vars*
 !.dev.vars.example
 !.env.example
+
+# arquivos de projeto/sessão com dados pessoais (não publicar)
+CLAUDE.md
+memory/
+*.local

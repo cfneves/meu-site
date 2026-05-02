@@ -24,9 +24,9 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg:         #040D1B;
-      --bg-2:       #091422;
-      --bg-3:       #0F1E34;
+      --bg:         #071929;
+      --bg-2:       #0C2040;
+      --bg-3:       #122948;
       --glass:      rgba(255,255,255,0.028);
       --glass-2:    rgba(255,255,255,0.055);
       --border:     rgba(255,255,255,0.07);
@@ -64,7 +64,7 @@
       border-bottom: 1px solid transparent;
     }
     .nav.scrolled {
-      background: rgba(4,13,27,0.93);
+      background: rgba(7,25,41,0.94);
       backdrop-filter: blur(24px) saturate(1.2);
       border-bottom-color: var(--border);
     }
@@ -196,22 +196,18 @@
     .dp-chart { display:flex; align-items:flex-end; gap:4px; height:58px; }
     .dp-b     { flex:1; border-radius:2px 2px 0 0; }
 
-    /* ── CLIENT LOGO — fundo branco, cores naturais ── */
+    /* ── CLIENT LOGO — direto sobre fundo branco ── */
     .client-logo {
       display: flex; align-items: center; justify-content: center;
-      padding: 12px 20px;
-      background: rgba(255,255,255,0.92);
-      border: 1px solid rgba(255,255,255,0.14); border-radius: 10px;
-      height: 70px; min-width: 120px; max-width: 170px;
-      transition: all 0.25s;
+      padding: 8px 18px; border-radius: 8px;
+      height: 72px; min-width: 110px; max-width: 160px;
+      transition: all 0.22s;
     }
     .client-logo:hover {
-      background: #ffffff;
-      transform: translateY(-3px);
-      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-      border-color: rgba(255,255,255,0.25);
+      background: rgba(0,0,0,0.04);
+      transform: translateY(-2px);
     }
-    .client-logo img { max-height: 40px; max-width: 108px; object-fit: contain; opacity: 0.85; transition: opacity 0.25s; }
+    .client-logo img { max-height: 44px; max-width: 110px; object-fit: contain; opacity: 0.72; transition: opacity 0.22s; }
     .client-logo:hover img { opacity: 1; }
 
     /* ── PROCESS STEPS ── */
@@ -455,9 +451,9 @@
 </section>
 
 <!-- ══ CLIENTES ══ -->
-<section id="clientes" style="padding:48px 0;background:rgba(0,0,0,0.28);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+<section id="clientes" style="padding:52px 0;background:#ffffff;border-top:3px solid rgba(7,25,41,0.12);border-bottom:3px solid rgba(7,25,41,0.10);">
   <div class="wrap">
-    <p style="text-align:center;font-family:var(--font-h);font-size:0.58rem;font-weight:600;color:var(--text-3);text-transform:uppercase;letter-spacing:0.18em;margin-bottom:28px;">
+    <p style="text-align:center;font-family:var(--font-h);font-size:0.6rem;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:0.18em;margin-bottom:32px;">
       Empresas que confiam neste trabalho
     </p>
     <div style="display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap;">
