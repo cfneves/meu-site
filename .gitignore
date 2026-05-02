@@ -31,5 +31,6 @@ pnpm-debug.log*
 
 # arquivos de projeto/sessão com dados pessoais (não publicar)
 CLAUDE.md
+BRIEFING.md
 memory/
 *.local
